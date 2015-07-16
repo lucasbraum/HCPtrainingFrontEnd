@@ -72,6 +72,23 @@ sap.ui.controller("view.Tasks", {
 	
 	onNewTaskClicked: function(){
 	    sap.ui.getCore().byId("app").to("idTaskCreationView");
+	},
+	
+	onDeleteClick: function(oEvent){
+	    this.getView().setBusy(true);
+	    
+	    var that = this;
+	    var sPath = oEvent.getParameter("listItem").getBindingContextPath();
+    	var oSelectTask = this.oTasksModel.getProperty(sPath);
+    	
+    	jQuery.ajax(this.sDestinationURL + "/" + oSelectTask.id, {
+	        dataType: "json",
+	        data: JSON.stringify(oSelectTask),
+	        method: "DELETE",
+			contentType: "application/json; charset=UTF-8",
+			complete: that.fnReloadTasksFromServer(that)
+	    });
 	}
+	
 
 });

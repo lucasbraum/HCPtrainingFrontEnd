@@ -21,6 +21,6 @@
   "hcpdeploy": {
     "account": "i845130trial",
     "name": "tasktracker",
-    "lastVersionWeTriedToDeploy": "1.0.1"
+    "lastVersionWeTriedToDeploy": "1.0.2"
   }
 }
