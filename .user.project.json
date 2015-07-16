@@ -1,0 +1,19 @@
+{
+  "run": [
+    {
+      "filePath": "/TaskTracker/index.html",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 6053386,
+        "displayName": "New Web Application 6"
+      }
+    }
+  ]
+}

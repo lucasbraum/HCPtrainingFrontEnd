@@ -1,0 +1,21 @@
+{
+  "generation": [
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationProject",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 15 Jul 2015 23:58:24 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "hcpdeploy": {
+    "account": "i845130trial",
+    "name": "tasktracker",
+    "lastVersionWeTriedToDeploy": "1.0.0"
+  }
+}
