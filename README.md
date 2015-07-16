@@ -12,6 +12,9 @@ https://sapui5.hana.ondemand.com/sdk/explored.html
 UI5 icons explorer
 https://openui5.hana.ondemand.com/iconExplorer.html
 
+BACKEND URL
+https://hcptrainingi845130trial.hanatrial.ondemand.com/SAPTaskTrackerBackEnd/rest/task
+
 # FRONT-END DEVELOPMENT
 Access the HCP Cockpit > Subscriptions > webide > Click in the Application URL
 
