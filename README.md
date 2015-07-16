@@ -1,5 +1,8 @@
 # USeful links
 
+Donwload Application
+https://mdocs.sap.com/mcm/public/v1/open?shr=dofdgMOS54kkJW04zEJOz21I59_wN4kddPC9VRFx5WE&obj=iwVq4zD5Ovgnl8K0zfY0AatMvXl69c98bjom622fpq8
+
 UI5 Documentation
 https://sapui5.hana.ondemand.com/sdk/#content/Overview.html
 
