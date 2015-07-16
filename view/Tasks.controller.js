@@ -4,11 +4,19 @@ sap.ui.controller("view.Tasks", {
     sDestinationURL : "hcptraining",
 
 	onInit: function() {
+	    var that = this;
+	    
         this.oTasksModel.setData({ 
             taskList : []
         });
         
         this.getView().setModel(this.oTasksModel, "Tasks");
+        
+        this.getView().addEventDelegate({
+		        onBeforeShow: function () {
+		            that.fnLoadTasksFromServer(that);
+		        }
+		});
 	},
 
 	onAfterRendering: function() {
@@ -60,6 +68,10 @@ sap.ui.controller("view.Tasks", {
 	    return function(){
 	        that.fnLoadTasksFromServer(that);
 	    };
+	},
+	
+	onNewTaskClicked: function(){
+	    sap.ui.getCore().byId("app").to("idTaskCreationView");
 	}
 
 });

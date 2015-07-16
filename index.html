@@ -16,9 +16,11 @@
 		
 		<script>
 				sap.ui.localResources("view");
-				var app = new sap.m.App({initialPage:"idTasks"});
+				var app = new sap.m.App("app",{initialPage:"idTasks"});
 				var page = sap.ui.view({id:"idTasks", viewName:"view.Tasks", type:sap.ui.core.mvc.ViewType.XML});
+				var creationView = sap.ui.view({id:"idTaskCreationView", viewName:"view.TaskCreation", type:sap.ui.core.mvc.ViewType.XML});
 				app.addPage(page);
+				app.addPage(creationView);
 				app.placeAt("content");
 		</script>
 		
@@ -27,7 +29,3 @@
 		<div id="content"></div>
 	</body>
 </html>
-	
-
-
-

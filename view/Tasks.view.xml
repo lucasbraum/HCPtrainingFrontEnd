@@ -3,6 +3,8 @@
 	xmlns="sap.m" controllerName="view.Tasks" 
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Page title="SAP Task Tracker">
+	    <headerContent>
+        </headerContent>
 		<content>
 		    <List items="{Tasks>/taskList}">
                 <CustomListItem press="onTaskClicked" type="Active">
